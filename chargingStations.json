@@ -1,0 +1,149 @@
+{
+    "tenants": [{
+        "id": "spar",
+        "description": " This is a grocery store",
+        "name": "SPAR Austria",
+        "stores": [{
+            "id": "spar_wörgl",
+            "description": "This is a grocery store by spar in Wörgl",
+            "name": "SPAR Wörgl",
+            "charging_station": [{
+                    "name": "1",
+                    "open_hours": [{
+                            "DOW": "Sunday",
+                            "times": [{
+                                "open": "0000",
+                                "close": "0000"
+                            }]
+                        },
+                        {
+                            "DOW": "Monday",
+                            "times": [{
+                                    "open": "0900",
+                                    "close": "1000"
+                                },
+                                {
+                                    "open": "1200",
+                                    "close": "1730"
+                                }
+                            ]
+                        },
+                        {
+                            "DOW": "Tuesday",
+                            "times": [{
+                                    "open": "0840",
+                                    "close": "1040"
+                                },
+                                {
+                                    "open": "1200",
+                                    "close": "1730"
+                                }
+                            ]
+                        },
+                        {
+                            "DOW": "Wednesday",
+                            "times": [{
+                                "open": "0830",
+                                "close": "1030"
+                            }]
+                        },
+                        {
+                            "DOW": "Thursday",
+                            "times": [{
+                                    "open": "0810",
+                                    "close": "1010"
+                                },
+                                {
+                                    "open": "1200",
+                                    "close": "1730"
+                                }
+                            ]
+                        },
+                        {
+                            "DOW": "Friday",
+                            "times": [{
+                                "open": "0845",
+                                "close": "1230"
+                            }]
+                        },
+                        {
+                            "DOW": "Saturday",
+                            "times": [{
+                                "open": "1000",
+                                "close": "1700"
+                            }]
+                        }
+                    ]
+                },
+                {
+                    "name": "2",
+                    "open_hours": [{
+                            "DOW": "Sunday",
+                            "times": [{
+                                "open": "0000",
+                                "close": "0000"
+                            }]
+                        },
+                        {
+                            "DOW": "Monday",
+                            "times": [{
+                                    "open": "0830",
+                                    "close": "1030"
+                                },
+                                {
+                                    "open": "1200",
+                                    "close": "1730"
+                                }
+                            ]
+                        },
+                        {
+                            "DOW": "Tuesday",
+                            "times": [{
+                                    "open": "0800",
+                                    "close": "1000"
+                                },
+                                {
+                                    "open": "1200",
+                                    "close": "1630"
+                                }
+                            ]
+                        },
+                        {
+                            "DOW": "Wednesday",
+                            "times": [{
+                                "open": "0700",
+                                "close": "1000"
+                            }]
+                        },
+                        {
+                            "DOW": "Thursday",
+                            "times": [{
+                                    "open": "0835",
+                                    "close": "1030"
+                                },
+                                {
+                                    "open": "1200",
+                                    "close": "1730"
+                                }
+                            ]
+                        },
+                        {
+                            "DOW": "Friday",
+                            "times": [{
+                                "open": "1000",
+                                "close": "1300"
+                            }]
+                        },
+                        {
+                            "DOW": "Saturday",
+                            "times": [{
+                                "open": "1100",
+                                "close": "1500"
+                            }]
+                        }
+                    ]
+                }
+            ]
+        }]
+    }]
+}
