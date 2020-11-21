@@ -1,12 +1,10 @@
 {
     "tenants": [{
-        "id": "spar",
-        "description": " This is a grocery store",
-        "name": "SPAR Austria",
+        "id": "GG",
+        "name": "Green Globe",
         "stores": [{
-            "id": "spar_wörgl",
-            "description": "This is a grocery store by spar in Wörgl",
-            "name": "SPAR Wörgl",
+            "id": "GGB",
+            "name": "Green Globe Bangalore",
             "charging_station": [{
                     "name": "1",
                     "open_hours": [{
