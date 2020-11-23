@@ -37,7 +37,7 @@ router.get('/tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/
             for (var j = 0; j < ChargingStationsTime.length; j++) {
                 var chargingStationOpen = ChargingStationsTime[j].open;
                 var chargingStationClose = ChargingStationsTime[j].close;
-                if (acceptedTime >= chargingStationOpen && acceptedTime <= chargingStationClose && acceptedTime !== "0000") {
+                if (acceptedTime >= chargingStationOpen && acceptedTime < chargingStationClose && acceptedTime !== "0000") {
                     isOpen = true;
                 }
             }
