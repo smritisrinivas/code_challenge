@@ -4,11 +4,11 @@
 
 ### Requirements
 
-For getting started, you will need to install Node.js on your environment.
+To get started, you will need to install Node.js on your environment.
 
 ### Node
 
-[Node](http://nodejs.org/) is really easy to install & now includes [NPM](https://npmjs.org/).
+[Node](http://nodejs.org/) is really easy to install and now includes [NPM](https://npmjs.org/).
 You should be able to run the following command after the installation procedure
 below.
 
@@ -45,8 +45,8 @@ Start the server as a first step by running the following command in your termin
     $ node main.js
 
 
-- In the browser now you should be able to see a welcome message as well as different route paths/endpoints
-- You can simply make a request to any of your desired endpoint to see the response 
+- In the browser, you should now be able to see a welcome message as well as different route paths/endpoints
+- You can simply make a request to any of your desired endpoints to see the response 
 
 ---
 
@@ -58,15 +58,15 @@ The first challenge has been accomplished under the following path
 
 ### Be aware 
  
-- A single tenant(greenglobe) entity has been maintained 
-- A single store(bangalore) entity has been maintained
-- The above mentioned path contains two parameters ':chargingstation' and ':time' so don't forget to pass a value
-- The store consists of only 2 charging stations and they can be reached by simply inserting a value 1 or 2 in place of ':chargingstation' parameter in the path 
-- In order to check the status(open/close) of the charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of ':time'       parameter in the path 
+- A single tenant (greenglobe) entity has been maintained 
+- A single store (bangalore) entity has been maintained
+- The above mentioned path contains the two parameters ':chargingstation' and ':time' so don't forget to pass a value
+- The store consists of only 2 charging stations, and they can be reached by simply inserting a value 1 or 2 in place of the ':chargingstation' parameter in the path 
+- In order to check the status (open/close) of the charging station, for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of the ':time'       parameter in the path 
     
 ### Expected result
 
-The response includes a boolean value either true when the store is open and false when the store is closed 
+The response includes a Boolean value of either true when the store is open or false when the store is closed 
 
 ---
 
@@ -78,15 +78,15 @@ The second challenge has been accomplished under the following path
 
 ### Be aware 
  
-- A single tenant(greenglobe) entity has been maintained 
-- A sigle store(bangalore) entity has been maintained
-- The above mentioned path contains two parameters ':chargingstation' and ':time' so don't forget to pass a value
-- The store consists of only 2 charging stations and they can be reached by simply inserting a value 1 or 2 in place of :chargingstation parameter in the path 
-- In order to check the next event (open/close) of any given charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of ':time' parameter in the path 
+- A single tenant (greenglobe) entity has been maintained 
+- A sigle store (bangalore) entity has been maintained
+- The above mentioned path contains thetwo parameters ':chargingstation' and ':time' so don't forget to pass a value
+- The store consists of only 2 charging stations, and they can be reached by simply inserting a value 1 or 2 in place of the :chargingstation parameter in the path 
+- In order to check the next event (open/close) of any given charging station for the current day, input your desired time in a 24 hour format only ex: 1200, 1700 in place of the ':time' parameter in the path 
     
 ### Expected result
 
-The response includes the next event either opening/closing with a time stamp 
+The response includes the next event as either opening/closing with a time stamp 
 
 
 
