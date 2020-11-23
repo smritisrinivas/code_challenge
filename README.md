@@ -60,7 +60,7 @@ The first challenge has been accomplished under the following path
  
 - A single tenant(greenglobe) entity has been maintained 
 - A single store(bangalore) entity has been maintained
-- The above mentioned path contains two parameters so don't forget to pass a value
+- The above mentioned path contains two parameters ':chargingstation' and ':time' so don't forget to pass a value
 - The store consists of only 2 charging stations and they can be reached by simply inserting the value 1 or 2 in place of ':chargingstation' parameter in the path 
 - In order to check the status(open/close) of the charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of ':time'       parameter in the path 
     
@@ -80,7 +80,7 @@ The second challenge has been accomplished under the following path
  
 - A single tenant(greenglobe) entity has been maintained 
 - A sigle store(bangalore) entity has been maintained
-- The above mentioned path contains two parameters so don't forget to pass a value
+- The above mentioned path contains two parameters ':chargingstation' and ':time' so don't forget to pass a value
 - The store consists of only 2 charging stations and they can be reached by simply inputting the value 1 or 2 in place of :chargingstation parameter in the path 
 - In order to check the status(open/close) of the charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of :time       parameter in the path 
     
