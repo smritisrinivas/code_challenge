@@ -22,7 +22,7 @@ below.
 
 ### Install
 
-    $ git clone https://github.com/smritisrinivas/has_to_be.git
+    $ git clone https://github.com/smritisrinivas/code_challenge.git
     $ cd has_to_be
     $ npm install
 
