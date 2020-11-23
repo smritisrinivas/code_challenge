@@ -1,4 +1,4 @@
-# has.to.be-challenge
+# Code Challenge
 
 <br />
 
