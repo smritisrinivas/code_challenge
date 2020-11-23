@@ -38,7 +38,6 @@ Some packages need to be updated hence run `npm install`
 - The server object listens to http requests on port 8080
 - Data has been stored in the JSON format as it caters to seamless data exchange over the web
 
-### Usage
 
 Start the sever as a first step by running the following command in your terminal 
 
