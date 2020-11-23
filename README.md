@@ -42,7 +42,7 @@ Some packages need to be updated hence run `npm install`
 
 Start the sever as a first step by running the following command in your terminal 
 
-    $ node --version
+    $ node main.js
 
 
 - In the browser now you should be able to see a welcome message as well as different route paths/endpoints
