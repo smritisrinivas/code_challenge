@@ -9,7 +9,7 @@ To get started, you will need to install Node.js on your environment.
 ### Node
 
 [Node](http://nodejs.org/) is really easy to install and now includes [NPM](https://npmjs.org/).
-You should be able to run the following command after the installation procedure to check if the installation was done correctly
+You should be able to run the following command after the installation procedure to check if the installation was done correctly.
 
     $ node --version
     v14.15.1
