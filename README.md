@@ -23,7 +23,7 @@ below.
 ### Install
 
     $ git clone https://github.com/smritisrinivas/code_challenge.git
-    $ cd has_to_be
+    $ cd code_challenge
     $ npm install
 
 ### Update sources
