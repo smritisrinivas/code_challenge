@@ -50,13 +50,13 @@ Start the sever as a first step by running the following command in your termina
 
 ---
 
-### First Challenge
+### First challenge
 
 The first challenge has been accomplished under the following path 
 
     /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/status/:time
 
-### Be Aware 
+### Be aware 
  
 - A single tenant(greenglobe) entity has been maintained 
 - A single store(bangalore) entity has been maintained
@@ -64,19 +64,19 @@ The first challenge has been accomplished under the following path
 - The store consists of only 2 charging stations and they can be reached by simply inserting the value 1 or 2 in place of ':chargingstation' parameter in the path 
 - In order to check the status(open/close) of the charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of ':time'       parameter in the path 
     
-### Expected Result
+### Expected result
 
 The response includes a boolean value either true when the store is open and false when the store is closed 
 
 ---
 
-### Second Challenge 
+### Second challenge 
 
 The second challenge has been accomplished under the following path 
 
     /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/nextevent/:time
 
-### Be Aware 
+### Be aware 
  
 - A single tenant(greenglobe) entity has been maintained 
 - A sigle store(bangalore) entity has been maintained
@@ -84,7 +84,7 @@ The second challenge has been accomplished under the following path
 - The store consists of only 2 charging stations and they can be reached by simply inputting the value 1 or 2 in place of :chargingstation parameter in the path 
 - In order to check the status(open/close) of the charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of :time       parameter in the path 
     
-### Expected Result
+### Expected result
 
 The response includes the next event either opening/closing with a time stamp 
 
