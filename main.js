@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
 /* Store Information */
 router.get('/tenant/greenglobe/store/bangalore', function(req, res) {
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
-    res.end('Information page Green Globe, Bangalore \n\nGreen Globe, the leading super market chain since 1995. From apparel to farm fresh Veggies you can buy everything at Green Globe. To be informed of the discounts at Green Globe Bangalore subscribe to our newsletter. \n\nWhile you shop now you may charge your vehicle at Green Globe Bangalore, we now have charging stations for your vehicle. \n\nfollow this path to know the status of the charging stations for the current day: /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/status/:time \nIn order to get the detailed information about the next events for the day please follow this path: /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/nextevent/:time');
+    res.end('Information page Green Globe, Bangalore \n\nGreen Globe, leading supermarket chain since 1995. From apparel to fresh farm veggie, you can buy everything at Green Globe.To stay up to date with deals and promotions at Green Globe Bangalore, subscribe to our newsletter. \n\nWhile shopping at Green Globe Bangalore, you can charge your vehicle at our charging station free of charge. \n\nfollow this path to check the status of the charging stations for the current day: /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/status/:time \nFor the details about upcoming events, please follow the following path: /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/nextevent/:time');
 })
 
 /* Get the status of the chargingstation */
