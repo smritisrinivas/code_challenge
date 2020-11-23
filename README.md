@@ -1,8 +1,8 @@
 # has.to.be-challenge
 
+<br />
 
-
-## Requirements
+### Requirements
 
 For getting started, you will need to install Node.js on your environment.
 
@@ -20,24 +20,25 @@ below.
 
 ---
 
-## Install
+### Install
 
     $ git clone https://github.com/smritisrinivas/has_to_be.git
     $ cd has_to_be
     $ npm install
 
-## Update sources
+### Update sources
 
 Some packages need to be updated hence run `npm install` 
 
 ---
 
-## Preliminaries
+### Preliminaries
 
 - [Node.js](https://nodejs.org) has been used to implement a web server 
 - The server object listens to http requests on port 8080
 - Data has been stored in the JSON format as it caters to seamless data exchange over the web
 
+<br />
 
 Start the sever as a first step by running the following command in your terminal 
 
@@ -49,7 +50,7 @@ Start the sever as a first step by running the following command in your termina
 
 ---
 
-## First Challenge
+### First Challenge
 
 The first challenge has been accomplished under the following path 
 
@@ -63,13 +64,13 @@ The first challenge has been accomplished under the following path
 - The store consists of only 2 charging stations and they can be reached by simply inserting the value 1 or 2 in place of ':chargingstation' parameter in the path 
 - In order to check the status(open/close) of the charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of ':time'       parameter in the path 
     
-## Expected Result
+### Expected Result
 
 The response includes a boolean value either true when the store is open and false when the store is closed 
 
 ---
 
-## Second Challenge 
+### Second Challenge 
 
 The second challenge has been accomplished under the following path 
 
@@ -83,7 +84,7 @@ The second challenge has been accomplished under the following path
 - The store consists of only 2 charging stations and they can be reached by simply inputting the value 1 or 2 in place of :chargingstation parameter in the path 
 - In order to check the status(open/close) of the charging station for the current day input your desired time in a 24 hour format only ex: 1200, 1700 in place of :time       parameter in the path 
     
-## Expected Result
+### Expected Result
 
 The response includes the next event either opening/closing with a time stamp 
 
