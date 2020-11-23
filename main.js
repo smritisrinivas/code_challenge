@@ -11,12 +11,14 @@ router.get('/', function(req, res) {
 })
 
 /* Store Information */
+
 router.get('/tenant/greenglobe/store/bangalore', function(req, res) {
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     res.end('Information page Green Globe, Bangalore \n\nGreen Globe, leading supermarket chain since 1995. From apparel to fresh farm veggie, you can buy everything at Green Globe.To stay up to date with deals and promotions at Green Globe Bangalore, subscribe to our newsletter. \n\nWhile shopping at Green Globe Bangalore, you can charge your vehicle at our charging station free of charge. \n\nfollow this path to check the status of the charging stations for the current day: /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/status/:time \nFor the details about upcoming events, please follow the following path: /tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/nextevent/:time');
 })
 
-/* Get the status of the chargingstation */
+/* Status of the chargingstation */
+
 router.get('/tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/status/:time', function(req, res) {
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     var response = 'Welcome at Green Globe charging service. \n\nAt the moment we have 2 charging stations at our store. \n\nIn order to check the status of your desired charging station for the current day, simply enter the charging station number (either 1 or 2) as well as the time (in 24-hour notation) that you wish to charge your vehicle in the path ex:/tenant/greenglobe/store/bangalore/chargingstation/1/status/0800 . \n\ncharging station that you are requesting for: ' + req.params.chargingstation + ' \nYour desired time: ' + req.params.time + '\nStatus: ';
@@ -44,7 +46,8 @@ router.get('/tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/
     res.end(response + " " + isOpen + checkNextEvent);
 })
 
-/* Get the next event with a time stamp */
+/* Next event with a time stamp */
+
 router.get('/tenant/greenglobe/store/bangalore/chargingstation/:chargingstation/nextevent/:time', function(req, res) {
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     var response = 'Green Globe Bangalore Charging service !! \n\nThank you for your interest in getting a deatiled information of the next events for the current day. \n\nIn order to check the next event of your desired charging station for the current day simply enter the charging station number (either 1 or 2) as well as the time (in 24-hour notation) that you wish to charge your vehicle in the path ex: /tenant/greenglobe/store/bangalore/chargingstation/1/nextevent/0800 . \n\ncharging station that you are requesting for: ' + req.params.chargingstation + ' \n\nYour desired time: ' + req.params.time + '\n\nNext event: ';
